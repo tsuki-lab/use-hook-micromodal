@@ -27,13 +27,20 @@
   },
   "homepage": "https://github.com/tsuki-lab/use-hook-micromodal#readme",
   "devDependencies": {
+    "@types/micromodal": "^0.3.3",
+    "@types/node": "^14.17.6",
     "@types/react": "^17.0.27",
     "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.15",
     "microbundle": "^0.14.0",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
+  },
+  "dependencies": {
+    "micromodal": "^0.4.6",
+    "styled-components": "^5.3.1"
   }
 }
